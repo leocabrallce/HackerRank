@@ -10,24 +10,17 @@ class Solution
         int sumB = 0;
 
         if (a0 != b0)
-        {
             int comparacao = (a0 > b0) ? ++sumA : ++sumB;
-        }
 
         if (a1 != b1)
-        {
             int comparacao = (a1 > b1) ? ++sumA : ++sumB;
-        }
 
         if (a2 != b2)
-        {
             int comparacao = (a2 > b2) ? ++sumA : ++sumB;
-        }
 
         int[] resultado = new int[2] { sumA, sumB };
 
         return resultado;
-
     }
 
     static void Main(String[] args)
